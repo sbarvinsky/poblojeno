@@ -1,0 +1,26 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.bak
+
+# Кэш и логи
+cache/
+tmp/
+*.log
+error_log
+
+# Конфиги с паролями
+.env
+*.env
+config.php
+database.php
+wp-config.php
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Большие файлы
+*.zip
+*.rar
+*.tar.gz

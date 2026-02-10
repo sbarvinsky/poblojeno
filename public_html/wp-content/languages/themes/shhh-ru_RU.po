@@ -1,0 +1,192 @@
+# Translation of Themes - Shhh in Russian
+# This file is distributed under the same license as the Themes - Shhh package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-05-18 11:02:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Shhh\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Silence."
+msgstr "Тишина."
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Shhh"
+msgstr "Shhh"
+
+#: patterns/header.php:13
+msgid "•"
+msgstr "•"
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "header"
+msgstr "заголовок"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Comments"
+msgstr "Комментарии"
+
+#: patterns/search.php
+msgctxt "Pattern title"
+msgid "search"
+msgstr "поиск"
+
+#: patterns/archive.php:33 patterns/index.php:29 patterns/search.php:33
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "По вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#: theme.json styles/dark.json
+msgctxt "Color name"
+msgid "Accent / Four"
+msgstr "Акцент / 4"
+
+#: patterns/index.php
+msgctxt "Pattern title"
+msgid "index"
+msgstr "индекс"
+
+#: patterns/archive.php
+msgctxt "Pattern title"
+msgid "archive"
+msgstr "архив"
+
+#: patterns/404.php
+msgctxt "Pattern title"
+msgid "404"
+msgstr "404"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Подвал"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Хедер"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr "Огромный"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Очень большой"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Большой"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Средний"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Маленький"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr "Крошечный"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "DM Mono"
+msgstr "DM Mono"
+
+#: theme.json styles/dark.json
+msgctxt "Color name"
+msgid "Accent / Three"
+msgstr "Акцент / 3"
+
+#: theme.json styles/dark.json
+msgctxt "Color name"
+msgid "Accent / Two"
+msgstr "Акцент / 2"
+
+#: theme.json styles/dark.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr "Акцент"
+
+#: theme.json styles/dark.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "Третичный"
+
+#: theme.json styles/dark.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Вторичный"
+
+#: theme.json styles/dark.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Основной"
+
+#: theme.json styles/dark.json
+msgctxt "Color name"
+msgid "base"
+msgstr "базовый"
+
+#: styles/dark.json
+msgctxt "Style variation name"
+msgid "Dark"
+msgstr "Тёмный"
+
+#: patterns/footer.php:23
+msgid "Designed with %1$s"
+msgstr "Разработано на %1$s"
+
+#. Translators: WordPress link.
+#: patterns/footer.php:21
+msgid "https://wordpress.org"
+msgstr "https://ru.wordpress.org"
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Default footer"
+msgstr "Подвал по умолчанию"
+
+#: patterns/archive.php:18 patterns/index.php:14 patterns/search.php:18
+msgid "— read more"
+msgstr "— читать далее"
+
+#: patterns/404.php:13
+msgid "⌇⌇ Oops, this page cannot be found.."
+msgstr "Упс! Страница не найдена."
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://automattic.com/"
+msgstr "https://automattic.com/"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wordpress.com/theme/shhh/"
+msgstr "https://wordpress.com/theme/shhh/"
