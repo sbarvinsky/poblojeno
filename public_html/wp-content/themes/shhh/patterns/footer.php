@@ -23,7 +23,7 @@ declare( strict_types = 1 );
 			esc_html__( 'Designed with %1$s', 'shhh' ),
 			$wordpress_link
 		);
-		?></p>
+		?> <span class="footer-emoji" aria-hidden="true">🙂</span></p>
 	<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
