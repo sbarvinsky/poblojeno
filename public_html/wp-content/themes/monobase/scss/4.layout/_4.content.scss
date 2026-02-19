@@ -1,0 +1,15 @@
+.site-box {
+  display: grid;
+  grid-template-columns: minmax(20rem, 1fr);
+  container-name: site-box;
+  container-type: inline-size;
+
+  @media screen and (min-width: 60rem) {
+    grid-template-columns: 20rem minmax(20rem, 1fr);
+  }
+
+  @media screen and (min-width: 90rem) {
+    grid-template-columns: 20rem 30rem minmax(20rem, 1fr);
+  }
+}
+

@@ -1,0 +1,10 @@
+.main-box {
+  
+  @media screen and (min-width: 60rem) {
+    &:has(.actions-box) {
+
+      padding-block-start: calc(var(--actions-box-hight) + var(--block-spacing));
+    }
+  }
+
+}

@@ -1,0 +1,71 @@
+// Screen Width
+$sm: 40em;
+$md: 50em;
+$lg: 60em;
+$xl: 70em;
+$xxl: 80em;
+
+
+:root, :host {
+  --site-width: 100vw;
+  --site-header: 3rem;
+  --actions-box-hight: 3.5rem;
+  --site-padding-inline: 1rem;
+  --block-spacing: 1.5rem;
+
+  @media screen and (min-width: 60rem) {
+    --site-header: 0rem;
+  }
+
+  --font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-code: var(--font-family);
+
+
+  --color-50: oklch(98.5% 0.002 247.839);
+  --color-100: oklch(96.7% 0.003 264.542);
+  --color-200: oklch(92.8% 0.006 264.531);
+  --color-300: oklch(87.2% 0.01 258.338);
+  --color-400: oklch(70.7% 0.022 261.325);
+  --color-500: oklch(55.1% 0.027 264.364);
+  --color-600: oklch(44.6% 0.03 256.802);
+  --color-700: oklch(37.3% 0.034 259.733);
+  --color-800: oklch(27.8% 0.033 256.848);
+  --color-900: oklch(21% 0.034 264.665);
+  --color-950: oklch(13% 0.028 261.692);
+
+  --scheme: #ffffff;
+
+  --transition: 0.2s ease-out;
+
+  --radius: 0;
+  --radius-small: calc(var(--radius)/2);
+  --radius-medium: calc(var(--radius)*2 - var(--radius)/2);
+  --radius-large: calc(var(--radius)*2);
+
+  // Shadow
+  --rgb-dark-05: color-mix(in srgb, var(--color-700), transparent 95%);
+  --rgb-dark-20: color-mix(in srgb, var(--color-700), transparent 80%);
+  --rgb-dark-30: color-mix(in srgb, var(--color-700), transparent 70%);
+  --rgb-dark-10: color-mix(in srgb, var(--color-700), transparent 90%);
+  --rgb-dark-40: color-mix(in srgb, var(--color-700), transparent 60%);
+  --rgb-dark-50: color-mix(in srgb, var(--color-700), transparent 50%);
+  --rgb-dark-60: color-mix(in srgb, var(--color-700), transparent 40%);
+  --shadow-small: 0 0 0 1px var(--rgb-dark-05), 0 1px 0 0 var(--rgb-dark-05), 0 0.1em 0.6em -0.5em var(--rgb-dark-05), 0 0.2em 1.2em -0.8em var(--rgb-dark-10), 0 0.3em 0.7em -0.6em rgba(var(--wpie-rgb-dark), 0.2), 0 0.4em 0.8em -0.7em var(--rgb-dark-30);
+  --shadow: 0 0 0 1px var(--rgb-dark-05), 0 1px 0 0 var(--rgb-dark-05), 0 0.2em 1.6em -0.8em var(--rgb-dark-20), 0 0.4em 2.4em -1em var(--rgb-dark-30), 0 0.4em 0.8em -1.2em var(--rgb-dark-40), 0 0.8em 1.2em -1.6em var(--rgb-dark-50), 0 1.2em 1.6em -2em var(--rgb-dark-60);
+}
+
+.theme-dark {
+  --color-50:  oklch(13%  0.028 261.692);
+  --color-100: oklch(21%  0.034 264.665);
+  --color-200: oklch(27.8% 0.033 256.848);
+  --color-300: oklch(37.3% 0.034 259.733);
+  --color-400: oklch(44.6% 0.03  256.802);
+  --color-500: oklch(55.1% 0.027 264.364);
+  --color-600: oklch(70.7% 0.022 261.325);
+  --color-700: oklch(87.2% 0.01  258.338);
+  --color-800: oklch(92.8% 0.006 264.531);
+  --color-900: oklch(96.7% 0.003 264.542);
+  --color-950: oklch(98.5% 0.002 247.839);
+
+  --scheme: oklch(20% 0.015 270);
+}

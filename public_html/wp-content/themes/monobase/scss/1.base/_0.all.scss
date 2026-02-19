@@ -1,0 +1,37 @@
+/*!
+Theme Name: Monobase
+Theme URI: https://themes.wow-company.com/monobase/
+Author: Wow-Company
+Author URI: https://wow-estore.com
+Description: Monobase is a fast, lightweight, and minimalist WordPress theme built with a focus on typography and readability. Designed for technical projects, it provides a clean monochrome layout with monospaced fonts, making it perfect for knowledge bases, tutorials, user guides, help desks, developer blogs, technical documentation, API references, training materials, and support sites.
+Version: 1.1
+Tested up to: 6.8
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: monobase
+Tags:  blog, education, news, three-columns, left-sidebar, custom-logo, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Monobase is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+// ==========================================================================
+// # - Base
+// ==========================================================================
+
+// ## - CSS Variables
+// ==========================================================================
+@import "1.variables";
+
+// ## - Modern CSS Reset
+// ==========================================================================
+@import "2.reset";
+
+// ## - Base
+// ==========================================================================
+@import "3.base";
+

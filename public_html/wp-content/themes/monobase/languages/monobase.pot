@@ -1,0 +1,375 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Monobase\n"
+"POT-Creation-Date: 2025-09-15 16:22+0300\n"
+"PO-Revision-Date: 2025-09-04 11:37+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:24
+msgid "Error 404: Resource not found"
+msgstr ""
+
+#: 404.php:26
+msgid "Requested URL does not exist."
+msgstr ""
+
+#: 404.php:34
+msgid "Not found"
+msgstr ""
+
+#: 404.php:39
+msgid "// Go home!"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:71 index.php:45 sidebar-posts.php:45 single.php:28
+#: template-parts/content-search.php:48
+msgid "Previous"
+msgstr ""
+
+#: comments.php:72 index.php:46 sidebar-posts.php:46 single.php:29
+#: template-parts/content-search.php:49
+msgid "Next"
+msgstr ""
+
+#: comments.php:74
+msgid "Comments navigation"
+msgstr ""
+
+#: functions.php:54
+msgid "Home Page"
+msgstr ""
+
+#: functions.php:55
+msgid "Side menu"
+msgstr ""
+
+#: header-main.php:19 header-main.php:21
+msgid "Posts"
+msgstr ""
+
+#: header-main.php:39
+msgid "Copy URL"
+msgstr ""
+
+#: header-main.php:40
+msgid "Copied"
+msgstr ""
+
+#: header-main.php:47 header-main.php:48
+msgid "Dark Mode"
+msgstr ""
+
+#: header-main.php:49
+msgid "Light Mode"
+msgstr ""
+
+#: header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:36
+msgid "Toggle menu\""
+msgstr ""
+
+#: inc/customizer.php:11 inc/theme-info.php:87
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:12
+msgid "Main theme settings."
+msgstr ""
+
+#: inc/customizer.php:17
+msgid "Home page"
+msgstr ""
+
+#: inc/customizer.php:28
+msgid "Title"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Set Title for Home Page."
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Short Description"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Content"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Appearance"
+msgstr ""
+
+#: inc/customizer.php:65
+msgid "Enable Post date in list"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Theme mode"
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Dark Logo"
+msgstr ""
+
+#: inc/template-tags.php:24 sidebar-posts.php:16
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:27 sidebar-posts.php:18
+msgid "Category"
+msgstr ""
+
+#: inc/template-tags.php:108
+msgid "Search…"
+msgstr ""
+
+#: inc/template-tags.php:110
+#, php-format
+msgid "Find %d posts for %s"
+msgstr ""
+
+#: inc/template-tags.php:121
+msgid "Sidebar navigation"
+msgstr ""
+
+#: inc/template-tags.php:160
+msgid "Sticky post"
+msgstr ""
+
+#: inc/template-tags.php:162
+msgid "Sticky"
+msgstr ""
+
+#: inc/template-tags.php:411
+msgid "Modification"
+msgstr ""
+
+#: inc/template-tags.php:415
+msgid "Published"
+msgstr ""
+
+#: inc/template-tags.php:439
+msgid "Tags"
+msgstr ""
+
+#: inc/theme-info.php:19 inc/theme-info.php:41
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: inc/theme-info.php:20
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/theme-info.php:47
+msgid "Theme Links"
+msgstr ""
+
+#: inc/theme-info.php:49
+msgid "PRO Demo"
+msgstr ""
+
+#: inc/theme-info.php:51
+msgid "Documentation"
+msgstr ""
+
+#: inc/theme-info.php:54
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/theme-info.php:57
+msgid "Support"
+msgstr ""
+
+#: inc/theme-info.php:66
+#, php-format
+msgid "Getting Started with %s"
+msgstr ""
+
+#: inc/theme-info.php:73
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/theme-info.php:76
+msgid ""
+"You need help to setup and configure this theme? We got you covered with an "
+"extensive theme documentation on our website."
+msgstr ""
+
+#: inc/theme-info.php:81
+#, php-format
+msgid "View %s Documentation"
+msgstr ""
+
+#: inc/theme-info.php:90
+#, php-format
+msgid ""
+"%s makes use of the Customizer for all theme settings. Click on \"Customize "
+"Theme\" to open the Customizer now."
+msgstr ""
+
+#: inc/theme-info.php:94
+msgid "Customize Theme"
+msgstr ""
+
+#: inc/theme-info.php:116
+msgid "Get more features"
+msgstr ""
+
+#: inc/theme-info.php:123
+msgid "Pro Version Add-on"
+msgstr ""
+
+#: inc/theme-info.php:126
+#, php-format
+msgid ""
+"Purchase the %s Pro Add-on and get additional features and advanced "
+"customization options."
+msgstr ""
+
+#: inc/theme-info.php:131
+#, php-format
+msgid "Learn more about %s Pro"
+msgstr ""
+
+#: inc/theme-info.php:150
+#, php-format
+msgid "%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)"
+msgstr ""
+
+#: inc/theme-info.php:153
+msgid "Review IKnowledgeBase"
+msgstr ""
+
+#: inc/theme-info.php:153
+msgid "rate it"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:19
+msgid "Submit search"
+msgstr ""
+
+#: searchform.php:20
+msgid "Search"
+msgstr ""
+
+#: sidebar-posts.php:11 template-parts/content-search.php:14
+msgid "Site search"
+msgstr ""
+
+#: sidebar-posts.php:40 template-parts/content-search.php:43
+msgid "Posts pagination"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-index.php:31 template-parts/content.php:32
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content-index.php:43 template-parts/content-page.php:28
+#: template-parts/content.php:44
+msgid "Page links"
+msgstr ""
+
+#: template-parts/content-index.php:60 template-parts/content.php:61
+msgid "Author"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:45
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Monobase"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themes.wow-company.com/monobase/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Monobase is a fast, lightweight, and minimalist WordPress theme built with a "
+"focus on typography and readability. Designed for technical projects, it "
+"provides a clean monochrome layout with monospaced fonts, making it perfect "
+"for knowledge bases, tutorials, user guides, help desks, developer blogs, "
+"technical documentation, API references, training materials, and support "
+"sites."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wow-Company"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wow-estore.com"
+msgstr ""

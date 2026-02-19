@@ -1,0 +1,114 @@
+/*--------------------------------
+
+MonobaseIcon icon font
+Generated using nucleoapp.com
+
+-------------------------------- */
+
+$mb-icon-font-path: "../fonts" !default;
+
+@font-face {
+  font-family: 'MonobaseIcon';
+  src: url('#{$mb-icon-font-path}/MonobaseIcon.eot');
+  src: url('#{$mb-icon-font-path}/MonobaseIcon.eot') format('embedded-opentype'),
+       url('#{$mb-icon-font-path}/MonobaseIcon.woff2') format('woff2'),
+       url('#{$mb-icon-font-path}/MonobaseIcon.woff') format('woff'),
+       url('#{$mb-icon-font-path}/MonobaseIcon.ttf') format('truetype'),
+       url('#{$mb-icon-font-path}/MonobaseIcon.svg') format('svg');
+}
+
+/* base class */
+.mb-icon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'MonobaseIcon';
+  color: inherit;
+  flex-shrink: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* size examples - relative units */
+.mb-icon-sm {
+  font-size: 0.8em;
+}
+
+.mb-icon-lg {
+  font-size: 1.2em;
+}
+
+/* size examples - absolute units */
+.mb-icon-16 {
+  font-size: 16px;
+}
+
+.mb-icon-32 {
+  font-size: 32px;
+}
+
+/* rotate the icon infinitely */
+.mb-icon-is-spinning {
+  animation: mb-icon-spin 1s infinite linear;
+}
+
+@keyframes mb-icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* transform */
+.mb-icon-rotate-90  {
+	transform: rotate(90deg);
+}
+
+.mb-icon-rotate-180 {
+	transform: rotate(180deg);
+}
+
+.mb-icon-rotate-270 {
+	transform: rotate(270deg);
+}
+
+.mb-icon-flip-y {
+	transform: scaleY(-1);
+}
+
+.mb-icon-flip-x {
+	transform: scaleX(-1);
+}
+
+/* icons */
+$icons: (
+  'chevron-right': 'ea02',
+  'hash': 'ea03',
+  'link': 'ea04',
+  'check': 'ea05',
+  'arrow-bar-to-left': 'ea06',
+  'circle-half-2': 'ea07',
+  'list-letters': 'ea08',
+  'share': 'ea09',
+  'clock': 'ea0a',
+  'user': 'ea0b',
+  'list-search': 'ea0c',
+  'circle': 'ea0d',
+  'arrow-back': 'ea0e',
+  'menu': 'ea0f',
+  'arrow-back-up-double': 'ea10',
+  'pinned': 'ea11',
+  'message-reply': 'ea12',
+  'arrow-narrow-up': 'ea13',
+  'plus': 'ea14',
+);
+
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+@each $name, $code in $icons {
+  .mb-icon-#{""+$name}::before {
+    content: unicode($code);
+  }
+}

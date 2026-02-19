@@ -1,0 +1,175 @@
+.button,
+button:not([class^="btn-toggle"]),
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-small);
+  padding-inline: 1.1875rem;
+  padding-block: 0.5625rem;
+  border-width: 0.0625rem;
+  border-style: solid;
+  border-color: var(--color-300);
+  background-color: var(--scheme);
+  color: var(--color-900);
+  cursor: pointer;
+  transition: all var(--transition);
+  font-size: 0.875rem;
+  text-wrap: nowrap;
+  white-space: nowrap;
+  width: fit-content;
+  line-height: 1.25rem;
+  font-weight: 700;
+
+  &:hover {
+    background-color: var(--color-100);
+  }
+
+  &:focus {
+    outline: 2px solid var(--color-200);
+    outline-offset: 2px;
+  }
+
+  &[disabled] {
+    background-color: var(--color-100);
+    cursor: not-allowed;
+  }
+
+  &.is-ghost {
+    border-color: transparent;
+    background-color: transparent;
+    &:hover {
+      background-color: var(--color-100);
+    }
+  }
+
+  &.is-icon {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    display: inline-flex;
+    place-items: center;
+    font-size: 1.125rem;
+  }
+
+  .btn-icon {
+    font-size: 1.125rem;
+  }
+
+  &.is-secondary {
+    border-color: var(--color-100);
+    background-color: var(--color-100);
+    &:hover {
+      background-color: var(--color-200);
+      border-color: var(--color-200);
+    }
+  }
+
+  &.is-primary {
+    background-color: var(--color-600);
+    border-color: var(--color-600);
+    color: var(--color-50);
+
+    &:hover,
+    &:focus {
+      background-color: var(--color-700);
+      border-color: var(--color-700);
+      color: var(--color-50);
+    }
+
+    &:active {
+      background-color: var(--color-800);
+      border-color: var(--color-800);
+      color: var(--color-50);
+    }
+
+    &:disabled,
+    &[aria-disabled="true"] {
+      opacity: .5;
+    }
+
+    // outline варіант
+    &.is-outline {
+      background-color: transparent;
+      border-color: var(--color-300);
+      color: var(--color-600);
+
+      &:hover,
+      &:focus {
+        background-color: var(--color-100);
+        border-color: var(--color-400);
+        color: var(--color-800);
+      }
+
+      &:active {
+        background-color: var(--color-200);
+        border-color: var(--color-500);
+        color: var(--color-900);
+      }
+    }
+  }
+
+  &.is-accent {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    color: var(--color-50);
+
+    &:hover,
+    &:focus {
+      background-color: color-mix(in srgb, var(--color-accent) 90%, black 10%);
+      border-color: color-mix(in srgb, var(--color-accent) 90%, black 10%);
+      color: var(--color-50);
+    }
+
+    &:active {
+      background-color: color-mix(in srgb, var(--color-accent) 80%, black 20%);
+      border-color: color-mix(in srgb, var(--color-accent) 80%, black 20%);
+      color: var(--color-50);
+    }
+
+    &:disabled,
+    &[aria-disabled="true"] {
+      opacity: .5;
+    }
+
+    // outline варіант
+    &.is-outline {
+      background-color: transparent;
+      border-color: color-mix(in srgb, var(--color-accent) 70%, white 30%);
+      color: var(--color-accent);
+
+      &:hover,
+      &:focus {
+        background-color: color-mix(in srgb, var(--color-accent) 10%, white 90%);
+        border-color: color-mix(in srgb, var(--color-accent) 60%, white 40%);
+        color: color-mix(in srgb, var(--color-accent) 80%, black 20%);
+      }
+
+      &:active {
+        background-color: color-mix(in srgb, var(--color-accent) 60%, white 40%);
+        border-color: color-mix(in srgb, var(--color-accent) 90%, white 10%);
+        color: color-mix(in srgb, var(--color-accent) 70%, black 30%);
+      }
+    }
+  }
+
+  &.is-action {
+    max-height: 2rem;
+    font-size: 1.125rem;
+  }
+
+}
+
+input[type="reset"] {
+  background-color: var(--color-900);
+  color: var(--color-200);
+  border-color: var(--color-900);
+
+  &:hover {
+    background-color: var(--color-800);
+  }
+}
+

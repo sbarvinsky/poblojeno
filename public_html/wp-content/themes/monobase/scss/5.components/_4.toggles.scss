@@ -1,0 +1,29 @@
+.toggle {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.switcher .mb-arrow-bar-to-left {
+  transition: all var(--transition);
+}
+
+.switcher {
+
+  .toggle-posts-text {
+    font-size: 0.875rem;
+    display: none;
+    @media screen and (min-width: 90rem) {
+      display: none;
+    }
+  }
+}
+
+

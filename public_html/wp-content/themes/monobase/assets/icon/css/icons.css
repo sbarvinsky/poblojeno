@@ -1,0 +1,156 @@
+/*--------------------------------
+
+MonobaseIcon icon font
+Generated using nucleoapp.com
+
+-------------------------------- */
+
+@font-face {
+  font-family: 'MonobaseIcon';
+  src: url('../fonts/MonobaseIcon.eot');
+  src: url('../fonts/MonobaseIcon.eot') format('embedded-opentype'),
+       url('../fonts/MonobaseIcon.woff2') format('woff2'),
+       url('../fonts/MonobaseIcon.woff') format('woff'),
+       url('../fonts/MonobaseIcon.ttf') format('truetype'),
+       url('../fonts/MonobaseIcon.svg') format('svg');
+}
+
+/* base class */
+.mb-icon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'MonobaseIcon';
+  color: inherit;
+  flex-shrink: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* size examples - relative units */
+.mb-icon-sm {
+  font-size: 0.8em;
+}
+
+.mb-icon-lg {
+  font-size: 1.2em;
+}
+
+/* size examples - absolute units */
+.mb-icon-16 {
+  font-size: 16px;
+}
+
+.mb-icon-32 {
+  font-size: 32px;
+}
+
+/* rotate the icon infinitely */
+.mb-icon-is-spinning {
+  animation: mb-icon-spin 1s infinite linear;
+}
+
+@keyframes mb-icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* transform */
+.mb-icon-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.mb-icon-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.mb-icon-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.mb-icon-flip-y {
+  transform: scaleY(-1);
+}
+
+.mb-icon-flip-x {
+  transform: scaleX(-1);
+}
+
+/* icons */
+.mb-icon-chevron-right::before {
+  content: "\ea02";
+}
+
+.mb-icon-hash::before {
+  content: "\ea03";
+}
+
+.mb-icon-link::before {
+  content: "\ea04";
+}
+
+.mb-icon-check::before {
+  content: "\ea05";
+}
+
+.mb-icon-arrow-bar-to-left::before {
+  content: "\ea06";
+}
+
+.mb-icon-circle-half-2::before {
+  content: "\ea07";
+}
+
+.mb-icon-list-letters::before {
+  content: "\ea08";
+}
+
+.mb-icon-share::before {
+  content: "\ea09";
+}
+
+.mb-icon-clock::before {
+  content: "\ea0a";
+}
+
+.mb-icon-user::before {
+  content: "\ea0b";
+}
+
+.mb-icon-list-search::before {
+  content: "\ea0c";
+}
+
+.mb-icon-circle::before {
+  content: "\ea0d";
+}
+
+.mb-icon-arrow-back::before {
+  content: "\ea0e";
+}
+
+.mb-icon-menu::before {
+  content: "\ea0f";
+}
+
+.mb-icon-arrow-back-up-double::before {
+  content: "\ea10";
+}
+
+.mb-icon-pinned::before {
+  content: "\ea11";
+}
+
+.mb-icon-message-reply::before {
+  content: "\ea12";
+}
+
+.mb-icon-arrow-narrow-up::before {
+  content: "\ea13";
+}
+
+.mb-icon-plus::before {
+  content: "\ea14";
+}

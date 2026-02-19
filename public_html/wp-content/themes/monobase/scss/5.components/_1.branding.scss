@@ -1,0 +1,11 @@
+.site-logo .logo-dark {
+  display: none;
+}
+body.theme-dark .site-logo {
+  .logo-light {
+    display: none;
+  }
+  .logo-dark {
+    display: block;
+  }
+}
